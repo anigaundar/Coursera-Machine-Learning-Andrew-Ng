@@ -62,4 +62,8 @@ In the given figure, the cost function J(&theta;<sub>0</sub>,&theta;<sub>1</sub>
 
 True/False | Statement|Explanation
 ---|---|---
-True|If we start from point B, gradient descent with a well-chosen learning rate will eventually help us reach at or near point A, as the value of the cost function J(&theta;<sub>0</sub>,&theta;<sub>1</sub>) is minimum at A. | in
+True|If we start from point B, gradient descent with a well-chosen learning rate will eventually help us reach at or near point A, as the value of the cost function J(&theta;<sub>0</sub>,&theta;<sub>1</sub>) is minimum at A. | In gradient descent we minimise the cost function J(&theta;<sub>0</sub>,&theta;<sub>1</sub>). Point P is minima and correspoinding point in it's contour plot is point A. C belongs to red zone which is some random maximum location.|
+False|If we start from point B, gradient descent with a well-chosen learning rate will eventually help us reach at or near point C, as the value of the cost function J(&theta;<sub>0</sub>,&theta;<sub>1</sub>) is minimum at C.| C is not the Minima.|
+True|Point P(the golabal minimum of plot 2) corresponds to point A of plot 1.| Point P appears at the bottom of bowl shaped error function and from contour plot it correponds to point A|
+False| Point P(the golabal minimum of plot 2) corresponds to point C of plot 1.| ---|
+False|If we start from point B, gradient descent with a well-chosen learning rate will eventually help us reach at or near point A, as the value of the cost function J(&theta;<sub>0</sub>,&theta;<sub>1</sub>) is maximum at point A.| Cost function is minimum at point A.|
