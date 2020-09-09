@@ -29,11 +29,11 @@ consider the following training set of m = 4 training examples:
 
 consider the linear regression model *h<sub>&theta;</sub>(x) = &theta;<sub>0</sub> + &theta;<sub>1</sub>x* what is the values of &theta;<sub>0</sub> and &theta;<sub>1</sub> that you would expect to obtain upon running gradient descent on this model? (linear regression will be able to fit this data perfectly.)
 
-* &theta;<sub>0</sub> = 1 , &theta;<sub>1</sub> = 1
-* &theta;<sub>0</sub> = 0.5 , &theta;<sub>1</sub> = 0.5
-* &theta;<sub>0</sub> = 1 , &theta;<sub>1</sub> = 0.5
-* &theta;<sub>0</sub> = 0 , &theta;<sub>1</sub> = 0.5
-* &theta;<sub>0</sub> = 0.5 , &theta;<sub>1</sub> = 0
+- [ ] &theta;<sub>0</sub> = 1 , &theta;<sub>1</sub> = 1
+- [ ] &theta;<sub>0</sub> = 0.5 , &theta;<sub>1</sub> = 0.5
+- [ ] &theta;<sub>0</sub> = 1 , &theta;<sub>1</sub> = 0.5
+- [x] &theta;<sub>0</sub> = 0 , &theta;<sub>1</sub> = 0.5
+- [ ] &theta;<sub>0</sub> = 0.5 , &theta;<sub>1</sub> = 0
 
 Answer<img width=250/>|explanation<img width=250/>
 |---|---|
@@ -54,11 +54,11 @@ In the given figure, the cost function J(&theta;<sub>0</sub>,&theta;<sub>1</sub>
 
 ![](images/4.2-quiz-1.png)
 
-* If we start from point B, gradient descent with a well-chosen learning rate will eventually help us reach at or near point A, as the value of the cost function J(&theta;<sub>0</sub>,&theta;<sub>1</sub>) is minimum at A.
-* If we start from point B, gradient descent with a well-chosen learning rate will eventually help us reach at or near point C, as the value of the cost function J(&theta;<sub>0</sub>,&theta;<sub>1</sub>) is minimum at C.
-* Point P(the golabal minimum of plot 2) corresponds to point A of plot 1.
-* Point P(the golabal minimum of plot 2) corresponds to point C of plot 1.
-* If we start from point B, gradient descent with a well-chosen learning rate will eventually help us reach at or near point A, as the value of the cost function J(&theta;<sub>0</sub>,&theta;<sub>1</sub>) is maximum at point A.
+- [x] If we start from point B, gradient descent with a well-chosen learning rate will eventually help us reach at or near point A, as the value of the cost function J(&theta;<sub>0</sub>,&theta;<sub>1</sub>) is minimum at A.
+- [ ] If we start from point B, gradient descent with a well-chosen learning rate will eventually help us reach at or near point C, as the value of the cost function J(&theta;<sub>0</sub>,&theta;<sub>1</sub>) is minimum at C.
+- [x] Point P(the golabal minimum of plot 2) corresponds to point A of plot 1.
+- [ ] Point P(the golabal minimum of plot 2) corresponds to point C of plot 1.
+- [ ] If we start from point B, gradient descent with a well-chosen learning rate will eventually help us reach at or near point A, as the value of the cost function J(&theta;<sub>0</sub>,&theta;<sub>1</sub>) is maximum at point A.
 
 True/False | Statement|Explanation
 ---|---|---
@@ -73,10 +73,10 @@ Question 5:
 Suppose that for some linear regression problem(say, predicting housing prices as in the lecture), we have some training set, and for our traing set we managed to find some &theta;<sub>0</sub>,&theta;<sub>1</sub> such that J(&theta;<sub>0</sub>,&theta;<sub>1</sub>) = 0.
 which of the following statements below must then be true? (check all that apply)
 
-* Gradient decent is likely to get stuck at a local minimum and fail to find the global minimum.
-* For this to be true, we must have &theta;<sub>0</sub> = 0 and &theta;<sub>1</sub> = 0 so that h<sub>&theta;</sub>(x) = 0
-* Our training set can be fit perfectly by a straight line. i.e., all of our training examples lie perfectly on some straight line.
-* For this to be true, we must have y<sup>(i)</sup> = 0 for every value of i = 1,2,...,m.
+- [ ] Gradient decent is likely to get stuck at a local minimum and fail to find the global minimum.
+- [ ] For this to be true, we must have &theta;<sub>0</sub> = 0 and &theta;<sub>1</sub> = 0 so that h<sub>&theta;</sub>(x) = 0
+- [x] Our training set can be fit perfectly by a straight line. i.e., all of our training examples lie perfectly on some straight line.
+- [ ] For this to be true, we must have y<sup>(i)</sup> = 0 for every value of i = 1,2,...,m.
 
 True/False | Statement |Explanation
 ---|---|---
