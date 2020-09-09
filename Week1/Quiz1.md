@@ -26,7 +26,7 @@ Would you treat this as a classification or regression problem?
 * Classification
 * Regression
 
-Answer<br/>
+Answer:<br/>
 
 Answer | Explanation
 ---|---
@@ -39,6 +39,7 @@ Suppose you work on a stock market prediction. You would like to predict whether
 * Regression
 * Clssification
 
+Answer: <br/>
 Answer | Explanation
 ---|---
 **Classification**| Here we are taking the historical data of companies and based on that classified into categories - Bankrupt or not. so this is simply a classification problem.
@@ -51,10 +52,26 @@ Some of the preoblems below are best addressed using a supervised learning algor
 * Given 50 articles written by male authors, and 50 articles written by female authors, learn to predict the gender of a new manuscript's author (when the identity of this author is unknown)
 * Examine a lare collection of emails that are known to be spam email, to discover if there are sub-types of spam mail.
 
+Answer: <br/>
+
 True/False | Statement | Explanation 
 --- | --- | ---
 True |Given historical data of children's ages and heights, predict children's height as a function of their age.| In this prection of height is done based on the historical data of children's age and height. It is a labled data of afe and height .Clearly Supervised Learning.
 False |Take a collection of 1000 essays written on the US Economy, and find a way to automatically group these essays into a small number of groups of essays that are somehow "similar" ot "related".| Here only a collection of essays is taken and asked to group them without providing any labels or samples of ways of grouping. clearly this Unsupervised Learning.
 True| Given 50 articles written by male authors, and 50 articles written by female authors, learn to predict the gender of a new manuscript's author (when the identity of this author is unknown)| Here labled data of articles written by males and females is given. so based on this information we can find a way to predict the the article written by a male or female. So it is a Supervised Learning
 False| Examine a lare collection of emails that are known to be spam email, to discover if there are sub-types of spam mail. | In this problem a large collection of spam emails is given and asked to discover if there are sub-types of spam mail without providing any criterion ( labeled data). So this is an Unsupervised Learning. 
+
+Quetion 5
+------
+Which of htese is a reasonable definition of machine learning?
+* Machine learning is the field of study that gives computer the ability to learn without being explicitly programmed.
+* Machine learning is the field of allowing robot to act intelligently.
+* Machine learning learns from labeled data.
+* Machine learning is the science of programming computers.
+
+Answer:<br/>
+
+Answer | Explanation
+---|---
+Machine learning is the field of study that gives computer the ability to learn without being explicitly programmed.| self explanatory
 
