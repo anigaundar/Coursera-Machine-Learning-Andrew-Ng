@@ -67,3 +67,20 @@ False|If we start from point B, gradient descent with a well-chosen learning rat
 True|Point P(the golabal minimum of plot 2) corresponds to point A of plot 1.| Point P appears at the bottom of bowl shaped error function and from contour plot it correponds to point A|
 False| Point P(the golabal minimum of plot 2) corresponds to point C of plot 1.| ---|
 False|If we start from point B, gradient descent with a well-chosen learning rate will eventually help us reach at or near point A, as the value of the cost function J(&theta;<sub>0</sub>,&theta;<sub>1</sub>) is maximum at point A.| Cost function is minimum at point A.|
+
+Question 5:
+-----------
+Suppose that for some linear regression problem(say, predicting housing prices as in the lecture), we have some training set, and for our traing set we managed to find some &theta;<sub>0</sub>,&theta;<sub>1</sub> such that J(&theta;<sub>0</sub>,&theta;<sub>1</sub>) = 0.
+which of the following statements below must then be true? (check all that apply)
+
+* Gradient decent is likely to get stuck at a local minimum and fail to find the global minimum.
+* For this to be true, we must have &theta;<sub>0</sub> = 0 and &theta;<sub>1</sub> = 0 so that h<sub>&theta;</sub>(x) = 0
+* Our training set can be fit perfectly by a straight line. i.e., all of our training examples lie perfectly on some straight line.
+* For this to be true, we must have y<sup>(i)</sup> = 0 for every value of i = 1,2,...,m.
+
+True/False | Statement |Explanation
+---|---|---
+False|Gradient decent is likely to get stuck at a local minimum and fail to find the global minimum.| Not necessarily true. It may or ay not stuck at local optimum depending on the initial value we take for &theta;<sub>0</sub> & &theta;<sub>1</sub>.
+False|For this to be true, we must have &theta;<sub>0</sub> = 0 and &theta;<sub>1</sub> = 0 so that h<sub>&theta;</sub>(x) = 0 | h<sub>&theta;</sub>(x) = 0 does not mean J(&theta;<sub>0</sub>,&theta;<sub>1</sub>) = 0
+True|Our training set can be fit perfectly by a straight line. i.e., all of our training examples lie perfectly on some straight line.|For this to be true, we must have y<sup>(i)</sup> = 0 for every value of i = 1,2,...,m.| Cost function J(&theta;<sub>0</sub>,&theta;<sub>1</sub>) = 0 means hypothesis h<sub>&theta;</sub>(x<sup>(i)</sup>) = y<sup>(i)</sup> for every i = 1,2,...,m
+False|For this to be true, we must have y<sup>(i)</sup> = 0 for every value of i = 1,2,...,m.| ---
